@@ -1,0 +1,26 @@
+.footer{
+    background-color: cornflowerblue;
+}
+.footerContainer{
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.containerIcon{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: bisque;
+}
+
+
+
+.containerIcon div{
+    height: 60px;
+    width: 60px;
+    background-color: grey;
+}

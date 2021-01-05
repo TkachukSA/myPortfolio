@@ -1,21 +1,22 @@
 import React from 'react';
-import s from './Skills.module.css'
+import s from './MyWorks.module.css'
 import styles from './../comand/styles/Container.module.css'
-import Skill from "./skill/Skill";
+import MyWork from "./work/MyWork";
 
 
 
-function Skills() {
+
+function MyWorks() {
     return(
 
 
             <div className={s.skillsBlock}>
                 <div className={`${styles.container} ${s.skillsContainer}`}>
-                    <h2 className={s.title}>Skills</h2>
+                    <h2 className={s.title}>My works</h2>
                     <div className={s.skills}>
-                        <Skill title={'CSS'} description={'hello, '}/>
-                        <Skill title={'HTML'} description={''}/>
-                        <Skill title={'REACT'} description={''}/>
+                        <MyWork title={'CSS'} description={'SocialNetwork typeSkript, '}/>
+
+                        <MyWork title={'REACT'} description={'Todolist TypeScript'}/>
                     </div>
                 </div>
 
@@ -26,4 +27,4 @@ function Skills() {
     )
 
 }
-export default Skills
+export default MyWorks
