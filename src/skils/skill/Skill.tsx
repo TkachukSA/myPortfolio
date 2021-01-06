@@ -7,12 +7,11 @@ function Skill(props: { title: string , description: string}) {
 
 
         <div className={style.skill}>
-            <div className={style.icon}></div>
-
+            <div className={style.icon}>icon</div>
             <h3>{props.title}</h3>
-            <span className={style.description}>{props.description}</span>
-
-
+            <span className={style.description}>
+                {props.description}
+            </span>
         </div>
 
 

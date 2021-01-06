@@ -20,6 +20,7 @@ function Contacts() {
                         <input/>
                         <textarea/>
                     </form>
+                    <button>Отправить</button>
                 </div>
             </div>
 
