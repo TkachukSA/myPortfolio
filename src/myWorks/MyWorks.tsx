@@ -15,6 +15,9 @@ function MyWorks() {
                     <h2 className={s.title}>My works</h2>
                     <div className={s.skills}>
                         <MyWork title={'CSS'} description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
+                        <MyWork title={'CSS'} description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
+                        <MyWork title={'CSS'} description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
+                        <MyWork title={'CSS'} description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
 
                         <MyWork title={'REACT'} description={'Todolist TypeScript'}/>
                     </div>
