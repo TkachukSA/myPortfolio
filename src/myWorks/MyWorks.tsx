@@ -12,8 +12,16 @@ function MyWorks() {
 
             <div className={s.skillsBlock}>
                 <div className={`${styles.container} ${s.skillsContainer}`}>
-                    <h2 className={s.title}>My works</h2>
+                    <div  className={s.title}>
+                        <h2>Projects</h2>
+                    </div>
+
                     <div className={s.skills}>
+                        <MyWork title={'CSS'} description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
+                        <MyWork title={'CSS'} description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
+                        <MyWork title={'CSS'} description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
+                        <MyWork title={'CSS'} description={'SocialNetwork typeSk ridfvxzn vjfbnvzjdbflvzblhzb pt hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
+                        <MyWork title={'CSS'} description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
                         <MyWork title={'CSS'} description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
                         <MyWork title={'CSS'} description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
                         <MyWork title={'CSS'} description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>

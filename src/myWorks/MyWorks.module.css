@@ -9,13 +9,30 @@
 }
 
 .title{
-    background-color: rgba(71, 166, 193, 0.37);
+    margin: 0 0 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px ;
+
+}
+.title h2{
+    margin: 0;
 }
 
 .skills{
     border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
     flex-wrap: wrap;
+}
+@media screen and (min-width: 875px){
+    .skills{
+        justify-content: space-between;
+    }
 }

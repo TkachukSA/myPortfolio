@@ -21,8 +21,8 @@
     flex-direction: column;
 }
 .form{
+    width: 100%;
 
-    width: 200px;
     background-color: rgb(252, 243, 248);
     display: flex;
     flex-direction: column;
@@ -30,20 +30,9 @@
     border: 1px solid;
     margin-bottom: 20px;
 
-    /* align-items: center; */
-    /* text-align: center; */
-
-
-
-
-   /* min-height: 250px;
-    min-width: 220px;
-    background-color: rgb(252, 243, 248);
-    display: grid;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border: 1px solid;*/
-    /* height: 150px; */
-
+}
+@media screen and (min-width: 875px){
+    .form{
+        width: 320px;
+    }
 }

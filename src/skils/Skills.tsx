@@ -17,6 +17,7 @@ function Skills() {
                             <Skill title={'css'} description={'uhfpuafhe paughpau aprughpau h apuhgpua arughpah  rphauhpgu aruh phagru harughpagh ahrgpah'}/>
                             <Skill title={'react'} description={'uhfpuafhe paughpau aprughpau h apuhgpua arughpah  rphauhpgu aruh phagru harughpagh ahrgpah'}/>
                             <Skill title={'js'} description={'uhfpuafhe paughpau aprughpau h apuhgpua arughpah  rphauhpgu aruh phagru harughpagh ahrgpah'}/>
+                            <Skill title={'js'} description={'uhfpuafhe paughpau aprughpau h apuhgpua arughpah  rphauhpgu aruh phagru harughpagh ahrgpah'}/>
 
                         </div>
                     </div>
