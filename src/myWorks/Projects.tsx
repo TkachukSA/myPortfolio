@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './MyWorks.module.scss'
+import s from './Projects.module.scss'
 import styles from './../comand/styles/Container.module.css'
 import MyWork from "./work/MyWork";
 import {Title} from "../comand/title/Title";
@@ -8,7 +8,7 @@ import todo from  '../asses/image/todo.png'
 
 
 
-function MyWorks() {
+function Projects() {
     const todolistImage = {
         color: 'blue',
         backgroundImage: `url(${todo})`,
@@ -32,4 +32,4 @@ function MyWorks() {
     )
 
 }
-export default MyWorks
+export default Projects

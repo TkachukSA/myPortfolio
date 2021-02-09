@@ -1,12 +1,43 @@
 .mainBlock{
-    background-color: darkorange;
+    background-color: #1f1f20;
     height: 100vh;
 }
 
 
 .text{
-     width: 300px;
-    background-color: white;
+     /*width: 300px;*/
+    background-color: #1f1f20;
+    font-weight: 700;
+    color: #ffffff;
+}
+.text h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 5px;
+    margin: 0;
+    font-size: 40px;
+    padding: 10px 0 10px;
+}
+.text span{
+    text-align: left;
+
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    font-family: Poppins, sans-serif;
+    display: table;
+
+}
+.text p {
+    font: 700 40px/1.2 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    display: block;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-top: 0;
+
 }
 .photo{
     width: 300px;

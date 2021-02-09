@@ -9,7 +9,7 @@ function MyWork(props: { title: string , description: string, style: any}) {
         <div className={style.preject}>
 
             <div className={style.image} style={props.style}>
-                <a className={style.btn}>show</a>
+                <a className={style.btn} href={''}>show</a>
             </div>
 
             <div className={style.projectInfo}>
