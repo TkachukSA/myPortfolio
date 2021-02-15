@@ -1,6 +1,24 @@
 .mainBlock{
     background-color: #1f1f20;
     height: 100vh;
+    text-align: left;
+
+}
+
+.nainContainer{
+
+}
+@media screen and (max-width: 990px){
+    .nainContainer{
+        flex-direction: column;
+        height: auto;
+        padding: 100px 0;
+        display: block;
+    }
+    .mainBlock{
+        height: auto;
+    }
+
 }
 
 
@@ -11,17 +29,20 @@
     color: #ffffff;
 }
 .text h1{
-    font-weight: 700;
+   /* font-size: 50px;*/
+    position: relative;
+    display: inline-block;
+    /*font-weight: 700;
     line-height: 1.2;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;*/
     letter-spacing: 5px;
     margin: 0;
-    font-size: 40px;
     padding: 10px 0 10px;
+    font: 700 40px/1.2 'Josefin Sans', sans-serif;
+   /* letter-spacing: 5px;*/
 }
 .text span{
     text-align: left;
-
     font-stretch: normal;
     font-size: 14px;
     line-height: 1.8;
@@ -31,7 +52,7 @@
 }
 .text p {
     font: 700 40px/1.2 'Josefin Sans', sans-serif;
-    font-size: 30px;
+    font-size: 27px;
     display: block;
     text-align: left;
     font-weight: 400;

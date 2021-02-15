@@ -6,7 +6,7 @@ function Main() {
     return(
         <div className={s.mainBlock}>
 
-            <div className={styles.container}>
+            <div className={`${styles.container} ${s.nainContainer}`}>
             <div className={s.text}>
                 <span>Hi There</span>
                 <h1>i am Sergey Tkachuk</h1>

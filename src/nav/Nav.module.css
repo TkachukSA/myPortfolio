@@ -1,6 +1,10 @@
 .nav{
-    border: 1px solid darkorange;
-    width: 300px;
+    border: 1px solid yellow;
+    /*//width: 300px;*/
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
+}
+.nav a {
+    color: #ffffff;
 }
