@@ -1,6 +1,7 @@
 .contactsBlock{
     height: 100vh;
-    background-color: #a07575;
+    background-color: #161618;
+    color: #FFF;
 }
 .contactsContainer{
     display: flex;
@@ -29,6 +30,17 @@
     justify-content: space-between;
     border: 1px solid;
     margin-bottom: 20px;
+
+}
+.form input {
+    background: #252527 !important;
+    color: white;
+    border: 1px solid #4a4a4a;
+    font-size: 12px;
+    padding: 0 15px;
+    border-radius: 0;
+    margin-bottom: 10px;
+
 
 }
 @media screen and (min-width: 875px){

@@ -65,3 +65,9 @@
     height: 400px;
     background-color: navajowhite;
 }
+@media screen and (max-width: 450px){
+    .photo{
+        width: 200px;
+        height: 300px;
+    }
+}

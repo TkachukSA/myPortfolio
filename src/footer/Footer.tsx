@@ -5,15 +5,16 @@ import {Title} from "../comand/title/Title";
 
 function Footer() {
     return (
-        <div className={s.footer} >
+        <div className={s.footer}>
             <div className={s.footerContainer}>
                 <Title title={'Segrey Tkachuk'}/>
 
                 <div className={s.containerIcon}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+
+                    <div><a href={''}>linkedin</a></div>
+                    <div><a href={''}>github</a></div>
+                    <div><a href={''}>codewars</a></div>
+                    <div><a href={''}>facebook</a></div>
                 </div>
                 <span>© 2021 Все права защищены</span>
             </div>
@@ -24,3 +25,10 @@ function Footer() {
 }
 
 export default Footer
+/*
+<ul>
+<li><a href={''}>facebook</a> </li>
+    <li><a href={''}>facebook</a> </li>
+    <li><a href={''}>facebook</a> </li>
+    <li><a href={''}>facebook</a> </li>
+    </ul>*/
