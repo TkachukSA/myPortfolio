@@ -1,24 +1,22 @@
 import React from 'react';
 import s from './Contacts.module.css'
 import styles from './../comand/styles/Container.module.css'
-
-
+import {Title} from "../comand/title/Title";
 
 
 function Contacts() {
-    return(
+    return (
 
 
         <div className={s.contactsBlock}>
             <div className={`${styles.container} ${s.contactsContainer}`}>
 
                 <div className={s.contacts}>
-                    <h2>Contacts</h2>
-
+                    <Title title={'Contacts'}/>
                     <form className={s.form}>
-                        <input/>
-                        <input/>
-                        <textarea/>
+                        <label> <input type={'text'} placeholder={'name'} className={s.formcontrol}/></label>
+                        <label> <input type={'email'} placeholder={'email'} className={s.formcontrol}/></label>
+                        <label> <textarea placeholder={'Your message'} rows={7} className={s.formcontrol}/> </label>
                     </form>
                     <button>Отправить</button>
                 </div>
@@ -27,8 +25,8 @@ function Contacts() {
         </div>
 
 
-
     )
 
 }
+
 export default Contacts

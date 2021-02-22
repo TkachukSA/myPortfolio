@@ -14,7 +14,7 @@ function Skills() {
                     <div className={`${styles.container} ${s.skillsContainer} `}>
                         <Title title={'Skills'}/>
                         <div className={s.skills}>
-                            <Skill  title={'HTML'} description={'uhfpuafhe paughpau aprughpau h apuhgpua arughpah  rphauhpgu aruh phagru harughpagh ahrgpah'}/>
+                            <Skill title={'HTML'} description={'uhfpuafhe paughpau aprughpau h apuhgpua arughpah  rphauhpgu aruh phagru harughpagh ahrgpah'}/>
                             <Skill title={'css'} description={'uhfpuafhe paughpau aprughpau h apuhgpua arughpah  rphauhpgu aruh phagru harughpagh ahrgpah'}/>
                             <Skill title={'react'} description={'uhfpuafhe paughpau aprughpau h apuhgpua arughpah  rphauhpgu aruh phagru harughpagh ahrgpah'}/>
                             <Skill title={'js'} description={'uhfpuafhe paughpau aprughpau h apuhgpua arughpah  rphauhpgu aruh phagru harughpagh ahrgpah'}/>

@@ -1,7 +1,7 @@
 .contactsBlock{
     height: 100vh;
-    background-color: #161618;
-    color: #FFF;
+    background-color: #1f1f20;
+    color: #ffffff;
 }
 .contactsContainer{
     display: flex;
@@ -15,16 +15,13 @@
     width: 80%;
     height: 60%;
     display: flex;
-
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
     flex-direction: column;
 }
 .form{
-    width: 100%;
-
-    background-color: rgb(252, 243, 248);
+    min-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,18 +30,45 @@
 
 }
 .form input {
-    background: #252527 !important;
-    color: white;
-    border: 1px solid #4a4a4a;
-    font-size: 12px;
-    padding: 0 15px;
-    border-radius: 0;
-    margin-bottom: 10px;
 
+    border: 1px solid #bd5f5f;
+    font-size: 12px;
+    /*padding: 0 15px;*/
+    border-radius: 0;
+    transition: all 0.4s ease-in-out 0s;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    margin-bottom: 1rem;
 
 }
 @media screen and (min-width: 875px){
     .form{
         width: 320px;
     }
+}
+.form textarea{
+    height: auto;
+    overflow: auto;
+    resize: vertical;
+}
+.formcontrol {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    /*padding: .375rem .75rem;*/
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+
+    background: #252527 !important;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
 }

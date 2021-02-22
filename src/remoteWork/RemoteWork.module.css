@@ -1,14 +1,82 @@
-.remoteContainer{
-
+.remoteContainer {
+    font-size: 16px;
+    background-color: honeydew;
+    width: 100%;
 }
 
-.item{
-    height: 150px;
+
+.item {
+    min-height: 150px;
     width: 100%;
-    background-color: rgb(159, 163, 159);
+    background-color: #252527;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 16px;
+    color: red;
+    padding: 100px 0;
+}
 
+.item h2 {
+    position: relative;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 30px;
+}
+
+@media screen and (max-width: 650px) {
+    .item h2 {
+        font-size: 24px;
+        /*    padding: 80px 0;*/
+    }
+}
+
+.btnStyles {
+    padding-top: 20px;
+}
+
+.btn {
+    display: block;
+    font: 400 14px/1.2 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 7px 20px;
+    margin: 5px;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    background: transparent;
+    color: #fff;
+    max-width: 170px;
+    margin: 15px auto;
+    z-index: 22;
+    text-align: center;
+    border-radius: 0px;
+    width: 100%;
+    border: none;
+    position: relative;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+    width: 50%;
+    background: #4e93e6;
+    z-index: -1;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    margin: 0 auto;
 }
