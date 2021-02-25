@@ -18,9 +18,9 @@ function Projects() {
                 <Title title={'Projects'}/>
 
                 <div className={s.skills}>
-                    <MyWork style={todolistImage} title={'CSS'}
-                            description={'SocialNetwork typeSkript hlgv klhlhvg klkgv lhgvlghv g vkhg v vk vkgv g vgvg '}/>
-                    <MyWork style={todolistImage} title={'REACT'} description={'Todolist TypeScript'}/>
+                    <MyWork style={todolistImage} title={'Todolist'}
+                            description={'The project was developed using:  React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router, StoryBook, Unit Tests'}/>
+                    <MyWork style={todolistImage} title={'Social network'} description={'Todolist TypeScript'}/>
                 </div>
             </div>
 

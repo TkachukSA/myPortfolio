@@ -4,6 +4,7 @@
 }
 
 .skillsContainer {
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -15,8 +16,6 @@
 
 .skills {
     width: 60%;
-    border: 1px solid;
-
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
