@@ -60,14 +60,32 @@
     margin-top: 0;
 
 }
-.photo{
+/*.photo{
     width: 300px;
-    height: 400px;
-    background-color: navajowhite;
+    height: 383px;
+
+}*/
+.photo img{
+    width: 345px;
+    height: 383px;
+
 }
+@media screen and (max-width: 450px){
+    .photo img {
+        width: 200px;
+        height: 220px;
+    }
+    /*.photo img {
+        width: 283px;
+        height: 300px;
+    }*/
+}
+
+
+/*
 @media screen and (max-width: 450px){
     .photo{
         width: 200px;
-        height: 300px;
+        height: 256px;
     }
-}
+}*/

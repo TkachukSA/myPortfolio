@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Main.module.css'
 import styles from './../comand/styles/Container.module.css'
+import me from '../asses/image/me.jpg'
 
 function Main() {
     return(
@@ -10,9 +11,9 @@ function Main() {
             <div className={s.text}>
                 <span>Hi There</span>
                 <h1>i am Sergey Tkachuk</h1>
-                <p>frontend Developer</p>
+                <p>Front-end Developer (React js)</p>
             </div>
-            <div className={s.photo}></div>
+            <div className={s.photo}>{<img src={me}/>}</div>
             </div>
 
 
