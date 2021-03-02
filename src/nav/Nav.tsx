@@ -5,10 +5,10 @@ function Nav() {
     return(
         <div className={s.nav}>
 
-            <a href="#yak1">Контакты</a>
-            <a href="#yak2">Проекты</a>
-            <a href="#yak3">Скилы</a>
-            <a href="#yak4">Главная</a>
+            <a href="#yak1">Contacts</a>
+            <a href="#yak2">Projects</a>
+            <a href="#yak3">Skills</a>
+            <a href="#yak4">Me</a>
 
         </div>
     )
