@@ -1,5 +1,5 @@
 .nav{
-    border: 1px solid yellow;
+
     /*//width: 300px;*/
     display: flex;
     justify-content: space-between;
@@ -7,4 +7,9 @@
 }
 .nav a {
     color: #ffffff;
+
+
+    text-decoration: solid;
+    font: 300 20px/1.1 'Poppins', sans-serif;
 }
+

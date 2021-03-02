@@ -9,7 +9,7 @@ function Contacts() {
     return (
 
 
-        <div className={s.contactsBlock}>
+        <div id="yak1" className={s.contactsBlock}>
             <div className={`${styles.container} ${s.contactsContainer}`}>
 
                 <div className={s.contacts}>

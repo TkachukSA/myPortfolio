@@ -35,7 +35,7 @@ function Skills() {
     return (
 
 
-        <div className={s.skillsBlock}>
+        <div id="yak3" className={s.skillsBlock}>
             <div className={`${styles.container} ${s.skillsContainer} `}>
                 <Title title={'Skills'}/>
                 <div className={s.skills}>

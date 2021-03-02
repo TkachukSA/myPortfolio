@@ -69,7 +69,7 @@ function Projects() {
 
 
     return (
-        <div className={s.skillsBlock}>
+        <div id="yak2" className={s.skillsBlock}>
             <div className={`${styles.container} ${s.skillsContainer}`}>
                 <Title title={'Projects'}/>
 

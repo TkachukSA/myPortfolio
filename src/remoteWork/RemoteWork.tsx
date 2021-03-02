@@ -8,7 +8,7 @@ function RemoteWork() {
     return (
         <div className={`${styles.container} ${s.remoteContainer}`}>
             <div className={s.item}>
-                    <Title title={'Рассматриваю варианты удаленной работы'}/>
+                    <Title title={'I Am Considering Remote Work Options'}/>
 
             {/*<h3>Рассматриваю варианты удаленной работы</h3>*/}
             <span className={s.btnStyles}>
