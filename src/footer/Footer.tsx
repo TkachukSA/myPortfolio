@@ -25,10 +25,3 @@ function Footer() {
 }
 
 export default Footer
-/*
-<ul>
-<li><a href={''}>facebook</a> </li>
-    <li><a href={''}>facebook</a> </li>
-    <li><a href={''}>facebook</a> </li>
-    <li><a href={''}>facebook</a> </li>
-    </ul>*/

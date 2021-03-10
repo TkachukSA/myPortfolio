@@ -10,42 +10,18 @@
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
 }
+@media screen and (max-width: 990px){
+    .skill{
+        width: auto;
+        margin: 0;
+    }
+}
 
 .icon {
     width: 60px;
     height: 60px;
     background-color: rgb(201, 198, 198);
 }
-/*
-.iconboxicon {
-    !*color: #4e93e6;*!
-    height: 80px;
-    width: 80px;
-    margin: 10px auto 30px;
-    background: rgba(255,255,255,0.1);
-    display: block;
-    line-height: 80px;
-    font-size: 30px;
-    box-shadow: -6px 10px 40px rgb(0 0 0 / 6%);
-    text-align: center;
-    transform: rotate(
-            45deg
-    );
-    transform-origin: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.fa, .fas, .far, .fal, .fab {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-}*/
 
 
 .iconboxicon {
@@ -76,7 +52,6 @@
     display: block;
     line-height: 80px;
     font-size: 30px;
-    /*box-shadow: -6px 10px 40px rgb(0 0 0 / 6%);*/
     text-align: center;
     transform: rotate(
             314deg
@@ -86,8 +61,35 @@
 }
 .fa svg {
     display: inline-block;
-
     height: 0.8em;
     overflow: visible;
     vertical-align: -0.125em;
 }
+
+/*
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+
+ .svg-inline--fa.fa-w-16 {
+     width: 1.8em;
+ }
+.Skill_fa__IINZt svg {
+    display: inline-block;
+    height: 2.8em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+ .fa-2x {
+     !* font-size: 2em; *!
+ }
+
+ .svg-inline--fa {
+     display: inline-block;
+     font-size: inherit;
+     height: 1em;
+     overflow: visible;
+     vertical-align: -0.125em;
+ }*/
