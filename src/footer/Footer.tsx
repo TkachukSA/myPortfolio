@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './../comand/styles/Container.module.css'
 import s from './Footer.module.css'
 import {Title} from "../comand/title/Title";
 
@@ -16,7 +15,7 @@ function Footer() {
                     <div><a href={''}>codewars</a></div>
                     <div><a href={''}>facebook</a></div>
                 </div>
-                <span>© 2021 Все права защищены</span>
+                <span>© 2021 All rights reserved</span>
             </div>
 
         </div>

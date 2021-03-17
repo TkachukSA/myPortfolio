@@ -10,9 +10,8 @@ function RemoteWork() {
             <div className={s.item}>
                     <Title title={'I Am Considering Remote Work Options'}/>
 
-            {/*<h3>Рассматриваю варианты удаленной работы</h3>*/}
             <span className={s.btnStyles}>
-                <button className={s.btn}>Нанять меня</button>
+                <button className={s.btn}>Hire me</button>
             </span>
 
             </div>
