@@ -7,6 +7,7 @@ import todo from '../asses/image/todo.png'
 import soc from '../asses/image/social.png'
 import component from '../asses/image/present.png'
 import counter from '../asses/image/counter.png'
+import welbex from '../asses/image/welbex.png'
 
 
 type ProjectsType={
@@ -14,7 +15,12 @@ type ProjectsType={
     socialNetwork : { title: string, srcCode:string, style: any, description: string, src:string}
     hwIgnat : { title: string, srcCode:string, style: any, description: string, src:string}
     counterRedux : { title: string, srcCode:string, style: any, description: string, src:string}
+    welbex : { title: string, srcCode:string, style: any, description: string, src:string}
 }
+const welbexImage = {
+    color: 'blue',
+    backgroundImage: `url(${welbex})`,
+};
 const todolistImage = {
     color: 'blue',
     backgroundImage: `url(${todo})`,
@@ -60,6 +66,13 @@ let projects:ProjectsType = {
         style:counterPng,
         description:'The project was developed using:  React, Redux, TypeScript,  React Hooks',
         src:'https://asa121asa.github.io/CounterWithRedux/'
+    },
+    welbex:{
+        title:'Cards',
+        srcCode: 'https://github.com/asa121asa/test_homework_inmedia',
+        style:welbexImage,
+        description:'The project was developed using:  React, TypeScript, React Hooks, react-three-fiber, react-tilt',
+        src:'https://asa121asa.github.io/test_homework_inmedia/'
     }
 }
 
@@ -97,6 +110,12 @@ function Projects() {
                             description={projects.counterRedux.description}
                             src={projects.counterRedux.src}
                             srcCode={projects.counterRedux.srcCode}
+                    />
+                    <MyWork style={projects.welbex.style}
+                            title={projects.welbex.title}
+                            description={projects.welbex.description}
+                            src={projects.welbex.src}
+                            srcCode={projects.welbex.srcCode}
                     />
 
 
