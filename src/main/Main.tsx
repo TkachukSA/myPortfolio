@@ -6,7 +6,6 @@ import me from '../asses/image/me.jpg'
 function Main() {
     return(
         <div className={s.mainBlock}>
-
             <div className={`${styles.container} ${s.nainContainer}`}>
             <div className={s.text}>
                 <span>Hi There</span>
@@ -15,8 +14,6 @@ function Main() {
             </div>
             <div className={s.photo}>{<img src={me}/>}</div>
             </div>
-
-
         </div>
     )
 

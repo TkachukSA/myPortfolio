@@ -8,6 +8,7 @@ import soc from '../asses/image/social.png'
 import component from '../asses/image/present.png'
 import counter from '../asses/image/counter.png'
 import welbex from '../asses/image/welbex.png'
+import git from '../asses/image/git.png'
 
 
 type ProjectsType={
@@ -16,6 +17,7 @@ type ProjectsType={
     hwIgnat : { title: string, srcCode:string, style: any, description: string, src:string}
     counterRedux : { title: string, srcCode:string, style: any, description: string, src:string}
     welbex : { title: string, srcCode:string, style: any, description: string, src:string}
+    git : { title: string, srcCode:string, style: any, description: string, src:string}
 }
 const welbexImage = {
     color: 'blue',
@@ -37,8 +39,19 @@ const counterPng = {
     color: 'blue',
     backgroundImage: `url(${counter})`,
 };
+const gitPng = {
+    color: 'blue',
+    backgroundImage: `url(${git})`,
+};
 
 let projects:ProjectsType = {
+    git:{
+        title:'Git hub API',
+        srcCode: 'https://github.com/asa121asa/Paralect_test',
+        style:gitPng,
+        description:'The project was developed using:  React, Redux, TypeScript, Redux-Thunk, React Hooks, Axios, Browser-Router, Unit Tests',
+        src:'https://paralect-tests.vercel.app/'
+    },
     todolist:{
         title:'Todolist',
         srcCode: 'https://github.com/asa121asa/Todolist_v2',
@@ -87,6 +100,18 @@ function Projects() {
                 <Title title={'Projects'}/>
 
                 <div className={s.skills}>
+                    <MyWork style={projects.git.style}
+                            title={projects.git.title}
+                            description={projects.git.description}
+                            src={projects.git.src}
+                            srcCode={projects.git.srcCode}
+                    />
+                    <MyWork style={projects.welbex.style}
+                            title={projects.welbex.title}
+                            description={projects.welbex.description}
+                            src={projects.welbex.src}
+                            srcCode={projects.welbex.srcCode}
+                    />
                     <MyWork style={projects.todolist.style}
                             title={projects.todolist.title}
                             description={projects.todolist.description}
@@ -111,12 +136,7 @@ function Projects() {
                             src={projects.counterRedux.src}
                             srcCode={projects.counterRedux.srcCode}
                     />
-                    <MyWork style={projects.welbex.style}
-                            title={projects.welbex.title}
-                            description={projects.welbex.description}
-                            src={projects.welbex.src}
-                            srcCode={projects.welbex.srcCode}
-                    />
+
 
 
 
