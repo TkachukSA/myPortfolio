@@ -37,9 +37,6 @@ function Contacts() {
         },
 
         onSubmit: values => {
-            /*dispatch(newPasswordTC(values.password, tokenValue))*/
-
-            console.log(values)
             api.sendMessage(values.name, values.message, values.email).then(() => {
                 alert('ok')
             })
@@ -61,8 +58,13 @@ function Contacts() {
                                onBlur={formik.handleBlur}
                                className={s.formcontrol}
                         />
-                        {formik.touched.name && formik.errors.name ?
-                            <div style={{color: 'red'}}>{formik.errors.name}</div> : null}
+                        <div>
+                            {formik.touched.name && formik.errors.name ?
+                                <div style={{
+                                    color: '#4e93e6', position: 'relative',
+                                    top: '-10px'
+                                }}>{formik.errors.name}</div> : null}
+                        </div>
                         <input type={"text"}
                                {...formik.getFieldProps("email")}
                                placeholder={"email"}
@@ -70,7 +72,10 @@ function Contacts() {
                                className={s.formcontrol}
                         />
                         {formik.touched.email && formik.errors.email ?
-                            <div style={{color: 'red'}}>{formik.errors.email}</div> : null}
+                            <div style={{
+                                color: '#4e93e6', position: 'relative',
+                                top: '-10px'
+                            }}>{formik.errors.email}</div> : null}
                         <textarea
                             {...formik.getFieldProps("message")}
                             placeholder={'Your message'}
@@ -78,7 +83,10 @@ function Contacts() {
                             onBlur={formik.handleBlur}
                             className={s.formcontrol}/>
                         {formik.touched.message && formik.errors.message ?
-                            <div style={{color: 'red'}}>{formik.errors.message}</div> : null}
+                            <div style={{
+                                color: '#4e93e6', position: 'relative',
+                                top: '-10px'
+                            }}>{formik.errors.message}</div> : null}
                         <span className={btn.btnStyles}>
                              <button className={btn.btn}>Hire Me</button>
                         </span>
